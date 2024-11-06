@@ -160,7 +160,7 @@ wheel_final <- wheel_normalized %>%
   ) %>%
   select( -direction, -obs_value)
 
-
+# Build a function to plot the wheels
 wheelPlotter <- function(df, country_name) {
   
   # Set specific coordinates for colored segments
@@ -197,9 +197,6 @@ wheelPlotter <- function(df, country_name) {
                "7" = "#CE485D",
                "8" = "#DCA922",
                "0" = "transparent")
-  
-  # df <- wheel_normalized
-  # country_name <- "USA"
   
   # Filter country wanted
   wheel_short <- df %>%
@@ -290,7 +287,8 @@ wheelPlotter <- function(df, country_name) {
   
 }
 
-wheelPlotter(wheel_final, "United States")
+# Run the function and replace with whatever country you want to see :)
+wheelPlotter(wheel_final, "France")
 
 
 
