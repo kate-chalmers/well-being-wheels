@@ -2,5 +2,6 @@
 
 This code allows for a direct pull of the data from the OECD's <a href=", http://data-explorer.oecd.org/s/fu">How's Life? database</a> and shapes it into the wheel you see below.
 
- <img src="https://github.com/user-attachments/assets/12b41f3a-3f54-4334-a3ba-269e0c574a27"  width="50%" height="50%">
+<center><img src="https://github.com/user-attachments/assets/12b41f3a-3f54-4334-a3ba-269e0c574a27"  width="50%" height="50%"></center>
+ 
 
